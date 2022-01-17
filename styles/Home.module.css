@@ -83,6 +83,15 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
+  min-width: 150px;
+}
+
+.happy {
+  color: green;
+}
+
+.sad {
+  color: red;
 }
 
 .card:hover,
@@ -99,8 +108,8 @@
 
 .card p {
   margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+  font-size: 44px;
+  text-align: center;
 }
 
 .logo {
